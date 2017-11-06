@@ -1,0 +1,11 @@
+timeout: 10
+pins:
+ - name: pir
+   gpio: GPIO27
+   pull: Down
+   edge: Rising
+
+ - name: button
+   gpio: GPIO21
+   pull: Down
+   edge: Rising
